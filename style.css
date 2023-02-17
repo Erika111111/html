@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: gold;
+}
+.title{
+    color: brown;
+}
+
+html{
+    background-color: rgba(193, 29, 29, 0.217);
+}
+
+.title,.dsc{
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header{
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 150px;
+}
+
+.flex{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+
+    
+}
+
+.menu-link {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgba(223, 20, 189, 0.331);
+    color: rgb(99, 52, 52);
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-bottom: 15px;
+}
+
+.menu-link:hover {
+    color: rgba(223, 20, 189, 0.331);
+    background-color: #fff;
+    border: 1px solid rgba(223, 20, 189, 0.331);
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.item{
+    width: 263px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.item-pic{
+    width: 100%;
+}
+
+.txt-box{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.item-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
